@@ -1,13 +1,204 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#header {
+  background: #165315;
+  color: #fff;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .offer-text {
+  position: relative;
+  top: 5px;
+}
+#header .contact-text {
+  position: relative;
+  left: 400px;
+  top: 5px;
+}
+.logo-img {
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+}
+.nameOfLogo {
+  color: #0f4811;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+.nav-item-container {
+  position: relative;
+  top: 40px;
+}
+.nav-items {
+  margin-left: 10px;
+  font-weight: 600;
+  list-style: none;
+}
+.proflie-container {
+  margin-top: 40px;
+  position: relative;
+  left: 200px;
+  font-weight: 600;
+
+  text-align: center;
+}
+.user-icon {
+  font-size: 30px;
+}
+
+.cart-container {
+  margin-left: 30px;
+  position: relative;
+  left: 200px;
+  text-align: center;
+  font-weight: 600;
+}
+.cart-icon {
+  font-size: 30px;
+}
+.item-number {
+  position: relative;
+  background: #f3a939;
+  border-radius: 50%;
+  top: 20px;
+  left: 10px;
+}
+
+.search-place {
+  width: 400px;
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #000408; /* Add a bottom border */
+  outline: none;
+}
+.search-icon {
+  font-size: 18px;
+  position: relative;
+  left: 10px;
+  z-index: 1;
+}
+.search-plant-img {
+  position: relative;
+  right: 27px;
+  top: -1px;
+}
+
+.plant-button {
+  width: 114px;
+  height: 37px;
+  padding: 5px;
+  color: #fff;
+  font-size: bold;
+
+  background-color: #165315;
+}
+.pots-button {
+  width: 114px;
+  height: 37px;
+  background-color: transparent;
+  padding: 5px;
+  position: relative;
+  font-size: bold;
+  margin-left: 10px;
+}
+
+.pagination-button {
+  top: -50px;
+  font-size: 30px;
+  position: relative;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 20px;
+}
+.back-button-container {
+  position: relative;
+  top: -40px;
+}
+
+.sidebar-container {
+  background: #d4e7c6;
+  width: 40vw;
+  height: 700px;
+}
+.sidebar-items-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  color: #6e6e6e;
+}
+.product-show-container {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.product-item-container {
+  display: flex;
+  margin: 10px 50px 10px 0px;
+  justify-content: space-between;
+}
+.price-container {
+  justify-content: space-between;
+}
+.order-container {
+  position: "fixed";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+}
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 90vw;
+  height: 100vh;
+  left: 80px;
+  background-color: #fff;
+  padding: "100px";
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.close-button-container {
+  position: relative;
+  left: 500px;
+}
+
+.close {
+  font-size: 30px;
+}
+
+.footer-container {
+  background: #f0ffe5;
+}
+.first-footer-section {
+  width: 20vw;
+}
+
+.mid-main-contianer {
+  width: 20vw;
 }
