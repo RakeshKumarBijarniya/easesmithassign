@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/easesmithassign/static/css/main.231231f5.css",
+    "main.js": "/easesmithassign/static/js/main.8a5c052e.js",
+    "static/js/453.0a7d00e8.chunk.js": "/easesmithassign/static/js/453.0a7d00e8.chunk.js",
+    "index.html": "/easesmithassign/index.html",
+    "main.231231f5.css.map": "/easesmithassign/static/css/main.231231f5.css.map",
+    "main.8a5c052e.js.map": "/easesmithassign/static/js/main.8a5c052e.js.map",
+    "453.0a7d00e8.chunk.js.map": "/easesmithassign/static/js/453.0a7d00e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.231231f5.css",
+    "static/js/main.8a5c052e.js"
+  ]
+}
